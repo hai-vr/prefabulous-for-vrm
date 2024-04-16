@@ -1,0 +1,23 @@
+{
+    "name": "Prefabulous.VRM.Editor",
+    "references": [
+        "nadena.dev.ndmf",
+        "Prefabulous.Universal.Shared.Editor",
+        "Prefabulous.Universal.Common.Runtime",
+        "Prefabulous.VRM.Runtime",
+        "VRM"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "System.Collections.Immutable.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
