@@ -134,7 +134,7 @@ namespace Prefabulous.VRM.Editor
         protected override void Configure()
         {
             var seq = InPhase(BuildPhase.Transforming)
-                .AfterPlugin("Prefabulous.Universal.Shared.Editor.PrefabulousConvertBlendshapeConventionsPlugin");
+                .AfterPlugin("dev.hai-vr.prefabulous.universal.ConvertBlendshapeConventions");
             
             seq.Run("Add ARKit to BlendShapeAvatar", AddARKitToBlendShapeAvatar);
         }
