@@ -1,7 +1,7 @@
 {
   "name": "dev.hai-vr.resilience.prefabulous.vrm",
   "displayName": "Haï ~ Prefabulous for VRM and VTubing",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "unity": "2019.4",
   "description": "Prefabulous for VRM https://docs.hai-vr.dev/docs/products/prefabulous",
   "vrchatVersion" : "2022.1.1",
@@ -11,5 +11,8 @@
   "vpmDependencies": {
     "dev.hai-vr.resilience.prefabulous.universal": ">=2.0.0 <3.0.0-a"
   },
-  "url" : "https://docs.hai-vr.dev/docs/products/prefabulous"
+  "url" : "https://docs.hai-vr.dev/docs/products/prefabulous",
+  "documentationUrl": "https://docs.hai-vr.dev/docs/products/prefabulous",
+  "changelogUrl": "https://docs.hai-vr.dev/docs/changelogs/prefabulous-for-vrm",
+  "license": "MIT"
 }
